@@ -16,7 +16,7 @@ public class BaseTest {
     @BeforeEach
     public void setUp() {
         // Change to "chrome" or "firefox" as needed
-        String browser = "firefox"; 
+        String browser = "chrome"; 
 
         if (browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
