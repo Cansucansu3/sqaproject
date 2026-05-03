@@ -8,7 +8,7 @@ public class AppTest extends BaseTest {
 
     @Test
     public void pilotTest() {
-        // We use 'driver' from BaseTest
+        //we use 'driver' from BaseTest
         driver.get("https://www.google.com");
         
         String title = driver.getTitle();
